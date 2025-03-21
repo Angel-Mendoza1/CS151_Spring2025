@@ -48,9 +48,12 @@ void quiz06_ec()
     cout << setw(width) << true << setw(width) << (true != true) << endl;
     bool P = true, Q = true;
     cout << setw(width) << P << setw(width) << Q << setw(width) << (P != Q) << endl;
-    
+    Q = false;
     cout << setw(width) << P << setw(width) << Q << setw(width) << (P != Q) << endl;
+    P = false;
+    Q = !Q;
     cout << setw(width) << P << setw(width) << Q << setw(width) << (P != Q) << endl;
+    Q = !Q;
     cout << setw(width) << P << setw(width) << Q << setw(width) << (P != Q) << endl;
 }
 
