@@ -16,6 +16,47 @@ using namespace std;
 
 int main()
 {
+    string digits[10] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+    int choice;
+    cout << "Please enter a digit";
+    cin >> choice;
+    
+    if (choice >= 0 && choice <= 9)
+    {
+        cout << digits[choice] << endl;
+    }
+    else
+    {
+        cout << "Not a Valid digit\n";
+    }
 
+
+    /*
+    switch (choice)
+    {
+        
+        case 0: cout << digits[0] << endl;
+                    break;
+        case 1: cout << digits[1] << endl;
+                    break;
+        case 2: cout << digits[2] << endl;
+                    break;
+        case 3: cout << digits[3] << endl;
+                    break;
+        case 4: cout << digits[4] << endl;
+                    break;
+        case 5: cout << digits[5] << endl;
+                    break;
+        case 6: cout << digits[6] << endl;
+                    break;
+        case 7: cout << digits[7] << endl;
+                    break;
+        case 8: cout << digits[8] << endl;
+                    break;
+        case 9: cout << digits[9] << endl;
+                    break;
+        default: cout << "Not a Valid Number";
+    }
+        */
     return 0;
 }
