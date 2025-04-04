@@ -19,6 +19,8 @@ int main()
     int maximumValue;
     cin >> maximumValue;
 
+    maximumValue += 1;
+
     cout << "Are negative values allowed? (Y/N): ";
     char neg_flag;
     cin >> neg_flag;
